@@ -5,4 +5,49 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'Open Sans';
+    background-color: aliceblue;
+}
+
+nav,footer,header,ul,li,a, .container-fluid, .collapse {
+    background-color: #04BFBF;
+}
+
+.title{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img {
+    border-radius: 60px 0 60px 0;
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+}
+
+.history {
+    max-width: 80%; /* Limita el ancho del texto para mejorar la legibilidad */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 10px; /* Añade un poco de espacio alrededor del texto */
+     /* Un fondo suave puede ayudar a la lectura */
+    border-radius: 8px; /* Estilo opcional para suavizar las esquinas */
+  }
+  
+  .history p {
+    font-family: "Georgia", serif; /* Una tipografía con serifas mejora la legibilidad en textos largos */
+    font-size: 18px; /* Un tamaño de fuente adecuado */
+    line-height: 1.6; /* Espaciado entre líneas para facilitar la lectura */
+    /* Color de texto que contrasta bien con el fondo */
+    text-align: justify; /* Justifica el texto para un bloque uniforme */
+  }
+  
+
+.title, .imagen, .history {
+    background-color: aliceblue;
 }

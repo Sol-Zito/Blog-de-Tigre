@@ -11,43 +11,78 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link href="style.css" />
+    <link href="style.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog de Tigre</title>
   </head>
   <body>
-    <nav>
-      <button><a href="/">Home</a></button>
-      <button><a href="Explorar.html">Explorar</a></button>
-      <button><a href="Truecos&Consejos.html">Trucos & Consejos</a></button>
-      <button><a href="Contacto.html">Contacto</a></button>
-    </nav>
 
-    <h1>Bienvenido a la localidad del Tigre</h1>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Blog de Tigre</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Explorar.html">Explorar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Trucos&Consejos.html">Trucos & Consejos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <div class="main">
-      <img src="img/tigre3.jpeg" alt="">
-      <p>
-        Antes que los colonizadores españoles llegaran a América, la zona estaba poblada por grupos dispersos de indígenas, como los querandíes. La primera mención oficial de la región data del 24 de octubre de 1580, en un documento firmado por Juan de Garay, quien otorgó las tierras a otro español, Gonzalo Martel de Gusmán.1​
-  
-        Durante la época colonial, la zona se usaba como un puerto de contrabando, donde los portugueses podían pasar sus mercancías. Fue el capitán Domingo de Acassuso quien pudo detener un poco el contrabando portugués. Como resultado de sus victorias militares, el gobierno de España le dio capital, por lo que Acassuso pudo comprar tierras que en la actualidad pertenecen a San Isidro y fundó allí, en 1706, la Iglesia de San Isidro Labrador.1​
-  
-        Para mediados del siglo xviii, las tierras del lugar eran conocidas como "Pago de las Conchas", denominación que conservó hasta mediados del siglo xx, cuando el distrito cambió su nombre oficial a Partido de Tigre.
-  
-        Entre los años 1750 y 1805, se crea la Viceparroquia, bajo el título de la Inmaculada Concepción. Durante este lapso el puerto comenzó a crecer, llegando a su apogeo comercial en 1790, que motivó la multiplicación de aserraderos en la zona. Sin embargo en 1805 el pueblo es destruido por una importante tormenta, lo que obliga a muchos vecinos a refugiarse en las tierras más altas. Algunos de ellos permanecieron en el lugar y fundaron la villa vecina de San Fernando de la Buena Vista, con el apoyo del virrey Marqués de Sobre Monte.
-  
-        En 1806 ocurre uno de los hechos más importantes de la historia de Tigre, cuando el 4 de agosto de ese año el ejército reconquistador comandado por el francés Santiago de Liniers realiza un inesperado desembarco en el río de las Conchas para recuperar Buenos Aires, que se encontraba en manos inglesas. A raíz de este evento el riachuelo perdería su nombre monárquico, adoptando el de río de la Reconquista, en honor a la gesta patriótica donde varios vecinos de Tigre desempeñaron un rol importante.
-  
-        El primer tren llegó a Las Conchas el 1 de enero de 1865, lo cual brindó un significativo impulso al desarrollo de la zona: hasta entonces las carretas tardaban un día entero de viaje para ir de Tigre a Buenos Aires.
-  
-        En 1872 asumió como intendente Daniel María Cazón, quien hoy le da el nombre a la avenida principal de la ciudad y que es recordado por su colaboración con la comunidad local. Durante su gestión creó escuelas, caminos y desagües, plantó arboledas, extendió el alumbrado, colaborando de forma sustancial en el crecimiento del pueblo.1​
-  
-        Donde hoy está el Museo Naval antes estaban los Talleres de Marina, donde se construían barcos para el ejército durante la presidencia de Sarmiento. Dicho edificio, levantado a principios de la década de 1860, fue la primera construcción importante en las tierras ubicadas entre el río Tigre y el río Reconquista.
-  
-        A principios del siglo xx, en Tigre se producían frutas, madera, dulces, conservas, embutidos y licores. También fue en esa época cuando se empezó a popularizar como destino turístico. En 1916 llegó el tren eléctrico a la región y amplió aún más el turismo.
-      </p>
-    </div>
+    <main class="main">
+
+      <div class="title">
+        <h1>Bienvenidos a la localidad del Tigre</h1>
+      </div>
+
+      <div class="imagen">
+        <img src="img/tigre3.jpeg" alt="">
+        <img src="img/tigre.jpg" alt="">
+      </div>
+      <div class="history">
+        <div>
+          <h1>Historia</h1>
+        </div>
+        <p>
+          Antes que los colonizadores españoles llegaran a América, la zona estaba poblada por grupos dispersos de indígenas, como los querandíes. La primera mención oficial de la región data del 24 de octubre de 1580, en un documento firmado por Juan de Garay, quien otorgó las tierras a otro español, Gonzalo Martel de Gusmán.1​
+    
+          Durante la época colonial, la zona se usaba como un puerto de contrabando, donde los portugueses podían pasar sus mercancías. Fue el capitán Domingo de Acassuso quien pudo detener un poco el contrabando portugués. Como resultado de sus victorias militares, el gobierno de España le dio capital, por lo que Acassuso pudo comprar tierras que en la actualidad pertenecen a San Isidro y fundó allí, en 1706, la Iglesia de San Isidro Labrador.1​
+    
+          Para mediados del siglo xviii, las tierras del lugar eran conocidas como "Pago de las Conchas", denominación que conservó hasta mediados del siglo xx, cuando el distrito cambió su nombre oficial a Partido de Tigre.
+    
+          Entre los años 1750 y 1805, se crea la Viceparroquia, bajo el título de la Inmaculada Concepción. Durante este lapso el puerto comenzó a crecer, llegando a su apogeo comercial en 1790, que motivó la multiplicación de aserraderos en la zona. Sin embargo en 1805 el pueblo es destruido por una importante tormenta, lo que obliga a muchos vecinos a refugiarse en las tierras más altas. Algunos de ellos permanecieron en el lugar y fundaron la villa vecina de San Fernando de la Buena Vista, con el apoyo del virrey Marqués de Sobre Monte.
+    
+          En 1806 ocurre uno de los hechos más importantes de la historia de Tigre, cuando el 4 de agosto de ese año el ejército reconquistador comandado por el francés Santiago de Liniers realiza un inesperado desembarco en el río de las Conchas para recuperar Buenos Aires, que se encontraba en manos inglesas. A raíz de este evento el riachuelo perdería su nombre monárquico, adoptando el de río de la Reconquista, en honor a la gesta patriótica donde varios vecinos de Tigre desempeñaron un rol importante.
+    
+          El primer tren llegó a Las Conchas el 1 de enero de 1865, lo cual brindó un significativo impulso al desarrollo de la zona: hasta entonces las carretas tardaban un día entero de viaje para ir de Tigre a Buenos Aires.
+    
+          En 1872 asumió como intendente Daniel María Cazón, quien hoy le da el nombre a la avenida principal de la ciudad y que es recordado por su colaboración con la comunidad local. Durante su gestión creó escuelas, caminos y desagües, plantó arboledas, extendió el alumbrado, colaborando de forma sustancial en el crecimiento del pueblo.
+        </p>
+      </div>
+    </main>
+
+    <footer class="text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Blog de Tigre: 
+        
+      </div>
+    </footer>
 
 
     <!-- Bootstrap JS -->
