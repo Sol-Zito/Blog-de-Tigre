@@ -4,17 +4,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', 'Open Sans';
+    font-family: 'Roboto', sans-serif;
     background-color: aliceblue;
 }
+h1{
+    font-family: 'Merriweather', serif;
+}
 
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+
+}
 nav,footer,header,ul,li,a, .container-fluid, .collapse {
+    background-color: #04BFBF;
+}
+
+li{
+    font-size: 18px;
+}
+
+.fa-brands {
+    background-color: transparent;
+    color: white; /* O el color que prefieras */
+    font-size: 24px; /* Tamaño del icono */
+    margin: 0 10px; /* Espacio alrededor de los iconos */
+  }
+
+.icono-grande {
+    font-size: 38px;
     background-color: #04BFBF;
 }
 
 .title{
     text-align: center;
-    padding: 15px;
+    padding-top: 80px;
     
 }
 
@@ -50,4 +77,26 @@ nav,footer,header,ul,li,a, .container-fluid, .collapse {
 
 .title, .imagen, .history {
     background-color: aliceblue;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-video {
+    display: block; /* Asegura que el iframe se trate como un bloque */
+    margin: 0 auto; /* Centra el iframe horizontalmente */
+    border-radius: 20px; /* Añade bordes redondeados */
+    overflow: hidden; /* Esconde cualquier contenido que se desborde del borde redondeado */
 }

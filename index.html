@@ -12,15 +12,19 @@
       crossorigin="anonymous"
     />
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.x/css/all.min.css">
+
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog de Tigre</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">Blog de Tigre</a>
+          <a class="navbar-brand" href="/"><i class="fas fa-anchor icono-grande"></i></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,10 +37,10 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/"
-                  >Inicio</a
+                  >Home</a
                 >
               </li>
               <li class="nav-item">
@@ -60,61 +64,31 @@
       <div class="title">
         <h1>Bienvenidos a la localidad del Tigre</h1>
       </div>
-
-      <div class="imagen">
-        <img src="img/tigre3.jpeg" alt="" />
-        <img src="img/tigre.jpg" alt="" />
+      <div class="video embed-responsive embed-responsive-16by9">
+        <iframe class="youtube-video" width="800" height="415" src="https://www.youtube.com/embed/eAqkAjkSmwo?si=NWUmLCc6tmLsc_iZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
       </div>
       <div class="history">
         <div>
           <h1>Historia</h1>
         </div>
         <p>
-          Antes que los colonizadores españoles llegaran a América, la zona
-          estaba poblada por grupos dispersos de indígenas, como los querandíes.
-          La primera mención oficial de la región data del 24 de octubre de
-          1580, en un documento firmado por Juan de Garay, quien otorgó las
-          tierras a otro español, Gonzalo Martel de Gusmán.1​ Durante la época
-          colonial, la zona se usaba como un puerto de contrabando, donde los
-          portugueses podían pasar sus mercancías. Fue el capitán Domingo de
-          Acassuso quien pudo detener un poco el contrabando portugués. Como
-          resultado de sus victorias militares, el gobierno de España le dio
-          capital, por lo que Acassuso pudo comprar tierras que en la actualidad
-          pertenecen a San Isidro y fundó allí, en 1706, la Iglesia de San
-          Isidro Labrador.1​ Para mediados del siglo xviii, las tierras del
-          lugar eran conocidas como "Pago de las Conchas", denominación que
-          conservó hasta mediados del siglo xx, cuando el distrito cambió su
-          nombre oficial a Partido de Tigre. Entre los años 1750 y 1805, se crea
-          la Viceparroquia, bajo el título de la Inmaculada Concepción. Durante
-          este lapso el puerto comenzó a crecer, llegando a su apogeo comercial
-          en 1790, que motivó la multiplicación de aserraderos en la zona. Sin
-          embargo en 1805 el pueblo es destruido por una importante tormenta, lo
-          que obliga a muchos vecinos a refugiarse en las tierras más altas.
-          Algunos de ellos permanecieron en el lugar y fundaron la villa vecina
-          de San Fernando de la Buena Vista, con el apoyo del virrey Marqués de
-          Sobre Monte. En 1806 ocurre uno de los hechos más importantes de la
-          historia de Tigre, cuando el 4 de agosto de ese año el ejército
-          reconquistador comandado por el francés Santiago de Liniers realiza un
-          inesperado desembarco en el río de las Conchas para recuperar Buenos
-          Aires, que se encontraba en manos inglesas. A raíz de este evento el
-          riachuelo perdería su nombre monárquico, adoptando el de río de la
-          Reconquista, en honor a la gesta patriótica donde varios vecinos de
-          Tigre desempeñaron un rol importante. El primer tren llegó a Las
-          Conchas el 1 de enero de 1865, lo cual brindó un significativo impulso
-          al desarrollo de la zona: hasta entonces las carretas tardaban un día
-          entero de viaje para ir de Tigre a Buenos Aires. En 1872 asumió como
-          intendente Daniel María Cazón, quien hoy le da el nombre a la avenida
-          principal de la ciudad y que es recordado por su colaboración con la
-          comunidad local. Durante su gestión creó escuelas, caminos y desagües,
-          plantó arboledas, extendió el alumbrado, colaborando de forma
-          sustancial en el crecimiento del pueblo.
+          Antes de la llegada de los colonizadores españoles, la zona de El Tigre estaba habitada por indígenas querandíes. En 1580, Juan de Garay documentó oficialmente la región, comenzando una historia de transformaciones significativas. Durante la colonia, El Tigre sirvió como puerto de contrabando. En 1706, Domingo de Acassuso fundó la Iglesia de San Isidro Labrador, y la región fue conocida como el "Pago de las Conchas" hasta el siglo XX cuando se renombró como Partido de Tigre. El área alcanzó su apogeo comercial en 1790, pero fue devastada por una tormenta en 1805. Importantes eventos en 1806 incluyeron la recuperación de Buenos Aires por el ejército de Santiago de Liniers desde El Tigre, que pasó a ser conocido como el río de la Reconquista. El primer tren llegó en 1865, impulsando el desarrollo local, y en 1872, Daniel María Cazón, quien dio nombre a la principal avenida de la ciudad, promovió mejoras significativas en infraestructura y servicios comunitarios.
         </p>
+      </div>
+      <div class="imagen">
+        <img src="img/tigre3.jpeg" alt="" />
+        <img src="img/tigre.jpg" alt="" />
+        
       </div>
     </main>
 
     <footer class="text-center text-lg-start">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2024 Blog de Tigre
+        <a href="https://facebook.com/yourpage" class="fa-brands fa-facebook"></a>
+        <a href="https://twitter.com/yourpage" class="fa-brands fa-twitter"></a>
+        <a href="https://instagram.com/yourpage" class="fa-brands fa-instagram"></a>        
       </div>
     </footer>
 
