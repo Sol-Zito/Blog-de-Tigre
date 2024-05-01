@@ -127,6 +127,21 @@ li {
     /* Esconde cualquier contenido que se desborde del borde redondeado */
 }
 
+.conteiner-consejos {
+    background-color: #b7e2e2 !important;
+    border-radius: 10px;
+}
+
+.conteiner-consejos>li {
+    background-color: #b7e2e2;
+    width: 95%;
+    padding: 2px;
+}
+
+.btn-consejos:hover {
+    background-color: #55aaaa;
+}
+
 @media (width <=430px) {
     #containerCards {
         width: 80%;
