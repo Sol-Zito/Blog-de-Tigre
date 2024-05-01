@@ -1,5 +1,6 @@
 let trucos = [
   {
+    id: 1,
     image: `../img/viajesConAmigos.jpg`,
     titulo: "Cómo organizar un viaje con amigos",
     descripcion:
@@ -15,6 +16,7 @@ let trucos = [
     ],
   },
   {
+    id: 2,
     image: "../img/preparacionViaje.jpg",
     titulo: "4 consejos para prepararse para un viaje futuro",
     descripcion:
@@ -29,6 +31,7 @@ let trucos = [
     ],
   },
   {
+    id: 3,
     image: "../img/viajarSolo.jpg",
     titulo: "Viajar sola",
     descripcion:
@@ -43,6 +46,7 @@ let trucos = [
     ],
   },
   {
+    id: 4,
     image: "../img/hacerAmigos.jpg",
     titulo: "5 consejos para hacer amigos en tus viajes",
     descripcion:
@@ -58,6 +62,7 @@ let trucos = [
     ],
   },
   {
+    id: 5,
     image: `../img/viajesConAmigos.jpg`,
     titulo: "Cómo organizar un viaje con amigos",
     descripcion:
@@ -77,9 +82,9 @@ let trucos = [
 const cards = document.querySelector("#containerCards");
 
 for (data of trucos) {
-  cards.innerHTML += `<div class="col"> <div class="card" style="width: 20rem; height: max-content">
+  cards.innerHTML += `<div class="col-sm"> <div class="card border" style="width: 20rem; height: max-content">
    <img
-     class="card-img-top"
+     class="img-thumbnail"
      src=${data.image}
      alt=${data.titulo}
    />
@@ -88,28 +93,21 @@ for (data of trucos) {
      <p class="card-text">
        ${data.descripcionCorta}
      </p>
-     <div>
-       <p class="d-inline-flex gap-1">
-         <button
-           class="btn btn-primary"
-           type="button"
-           data-bs-toggle="collapse"
-           data-bs-target="#collapse"
-           aria-expanded="false"
-           aria-controls="collapse"
-         >
-           Ver mas..
-         </button>
-       </p>
-       <div class="collapse" id="collapse">
-         <div class="card card-body">
-           <p>Consejos:<p>
-           <ul>
-           ${data.consejos}
-           </ul>
-           
-         </div>
-       </div>
+      <div>
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${
+            data.id
+          }" aria-expanded="false" aria-controls="collapse${data.id}">
+            Consejos:
+          </button>
+        </p>
+        <div class="collapse" id="collapse${data.id}">
+          <div class="card card-body">
+          <ul>
+          ${data.consejos.map((el) => `<li>${el}</li>`)}
+          </ul>
+          </div>
+        </div>
      </div>
    </div>
    </div>
