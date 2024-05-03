@@ -127,7 +127,7 @@ let trucos = [
 const cards = document.querySelector("#containerCards");
 
 for (data of trucos) {
-  cards.innerHTML += `<div class="col-sm"> <div class="card border" style="width: 20rem; height: 30rem">
+  cards.innerHTML += `<div class="col-sm"> <div class="card border" style="width: 20rem; height: max-content">
    <img
      class="img-thumbnail"
      src=${data.image}
