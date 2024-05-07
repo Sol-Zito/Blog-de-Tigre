@@ -147,7 +147,9 @@ for (data of trucos) {
             Consejos:
           </button>
         </p>
-        <div class="collapse conteiner-consejos" id="collapse${data.id}">
+        <div class="collapse conteiner-consejos scroll-section"  id="collapse${
+          data.id
+        }">
           <ul class="conteiner-consejos">
           ${data.consejos.map((el) => `<li>${el}</li>`)}
           </ul>
