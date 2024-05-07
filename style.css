@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 h1 {
@@ -44,6 +44,7 @@ li {
     /* Tamaño del icono */
     margin: 0 10px;
     /* Espacio alrededor de los iconos */
+    text-decoration: none
 }
 
 .icono-grande {
@@ -95,12 +96,11 @@ li {
 }
 
 
-.title,
+/* .title,
 .imagen,
 .history {
-    background-color: aliceblue;
-}
-
+     background-color: aliceblue; 
+} */
 .video {
     display: flex;
     justify-content: center;
@@ -140,6 +140,15 @@ li {
 
 .btn-consejos:hover {
     background-color: #55aaaa;
+}
+
+.btn-consejos:focus {
+    background-color: #55aaaa;
+}
+
+.scroll-section {
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 @media (width <=430px) {
