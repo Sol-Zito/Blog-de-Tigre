@@ -5,14 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Briem Hand", cursive;
-    /* background-color: aliceblue; */
 }
 
 h1 {
     font-family: 'Merriweather', serif;
 }
 
-.tit-log{
+.tit-log {
     font-size: 25px;
     font-family: "Briem Hand", cursive;
 }
@@ -100,12 +99,6 @@ li {
     /* Justifica el texto para un bloque uniforme */
 }
 
-
-/* .title,
-.imagen,
-.history {
-     background-color: aliceblue; 
-} */
 .video {
     display: flex;
     justify-content: center;
@@ -154,6 +147,12 @@ li {
 .scroll-section {
     max-height: 200px;
     overflow-y: auto;
+}
+
+#sub-title {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center
 }
 
 @media (width <=430px) {
