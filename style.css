@@ -4,12 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Briem Hand", cursive;
     /* background-color: aliceblue; */
 }
 
 h1 {
     font-family: 'Merriweather', serif;
+}
+
+.tit-log{
+    font-size: 25px;
+    font-family: "Briem Hand", cursive;
 }
 
 .navbar {
