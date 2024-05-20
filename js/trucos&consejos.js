@@ -1,7 +1,7 @@
 let trucos = [
   {
     id: 1,
-    image: `../img/viajesConAmigos.jpg`,
+    image: `./img/viajesConAmigos.jpg`,
     titulo: "Cómo organizar un viaje con amigos",
     descripcion:
       "Como expertos viajeros, somos conscientes de que planificar unas vacaciones puede tomar bastante tiempo. Esto es aún más complicado si vas con amigos y tienen que ponerse todos de acuerdo. Queremos facilitarles este proceso y para ello, les acompañamos desde el momento en el que tienen que decidir su próximo destino",
@@ -17,7 +17,7 @@ let trucos = [
   },
   {
     id: 2,
-    image: `../img/presupuesto.jpg`,
+    image: `./img/presupuesto.jpg`,
     titulo: "Presupuesto y dinero para viajar",
     descripcion:
       "Que el dinero no sea un obstáculo: hay muchas maneras de autofinanciar un viaje.",
@@ -32,7 +32,7 @@ let trucos = [
   },
   {
     id: 3,
-    image: "../img/viajarSolo.jpg",
+    image: "./img/viajarSolo.jpg",
     titulo: "Viajar sola",
     descripcion:
       "Podríamos buscar miles de cosas para hacer, pero si viajamos con la mente abierta, vamos a encontrar un millón de cosas para hacer cuando estemos allí. Una de las cosas que siempre hago cuando viajo es lo que llamo “Wanderlost” ( algo así, en inglés, como un juego de palabras que sería “ansias de pasear y perderse”). Siempre me aseguro de reservar un tiempo en mi itinerario para salir sin rumbo y perderme por ahí. Nunca se sabe qué puede pasar, pero si nos abrimos a la aventura, sin duda la encontraremos.",
@@ -47,7 +47,7 @@ let trucos = [
   },
   {
     id: 4,
-    image: "../img/hacerAmigos.jpg",
+    image: "./img/hacerAmigos.jpg",
     titulo: "Consejos para hacer amigos en tus viajes",
     descripcion:
       "Un viaje en solitario te puede revolucionar la vida. Cuando no dependés de nadie, podés hacer lo que quieras, cuando quieras y como quieras. Sin embargo, esa sensación de libertad a veces cansa y puede ser que la soledad te sorprenda incluso en el paisaje más maravilloso. En un viaje sin más compañía que tus propios pensamientos, siempre llega un momento en que apetece socializar.",
@@ -63,7 +63,7 @@ let trucos = [
   },
   {
     id: 5,
-    image: `../img/amigos.jpg`,
+    image: `./img/amigos.jpg`,
     titulo: "Organizar un viaje con amigos",
     descripcion:
       "Como expertos viajeros, somos conscientes de que planificar unas vacaciones puede tomar bastante tiempo. Esto es aún más complicado si vas con amigos y tienen que ponerse todos de acuerdo. Queremos facilitarles este proceso y para ello, les acompañamos desde el momento en el que tienen que decidir su próximo destino",
@@ -79,7 +79,7 @@ let trucos = [
   },
   {
     id: 6,
-    image: "../img/preparacionViaje.jpg",
+    image: "./img/preparacionViaje.jpg",
     titulo: "4 consejos para un viaje futuro",
     descripcion:
       "La idea de viajar puede parecer muy lejana. Por eso estamos acá, para ayudarte a conseguir la información que necesitás para que puedas soñar ahora y viajar después. Como viajeros que somos, tenemos ganas de desempolvar nuestros pasaportes y volver a viajar. Sin embargo, hasta que llegue ese día, dedicamos nuestra energía a prepararnos para ese increíble viaje futuro.",
@@ -94,7 +94,7 @@ let trucos = [
   },
   {
     id: 7,
-    image: `../img/salud.jpg`,
+    image: `./img/salud.jpg`,
     titulo: "Lo mas importante, la salud",
     descripcion:
       "Al viajar solemos ir y querer recorrer todo, probar y hacer cosas fuera de lo habitual, por eso, esta bueo que seamos concientes de nuestra salud.",
@@ -110,7 +110,7 @@ let trucos = [
   },
   {
     id: 8,
-    image: `../img/mochila-equipaje.jpg`,
+    image: `./img/mochila-equipaje.jpg`,
     titulo: "La mochila/equipaje",
     descripcion:
       "Siempre lleva equipaje ligero, si no quieres acabar tu viaje con la misma columna vertebral que el jorobado de Notre Dame aprenderás rápido…Lleva una mochila extra. Pequeña. Para excursiones y paseos por la ciudad",
