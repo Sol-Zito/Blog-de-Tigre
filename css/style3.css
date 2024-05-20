@@ -1,12 +1,14 @@
 
 
-/* product cards */
-#product-cards h1{
+h1 {
+    padding: 10px;
+}
+#product-cards h2{
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
-    color: #04BFBF;
-    text-shadow: 1px 1px 1px black;
+    color: black;
+    
     border-bottom: 2px solid rgb(139, 209, 214);
 }
 #product-cards .card{
@@ -48,22 +50,15 @@
     text-shadow: 1px 1px 1px black;
 }
 
-
-
-/* product cards end */
-
-
-
-/* about */
 #about{
     margin-top: 50px;
 }
-#about h1{
+#about h2{
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
-    color: #04BFBF;
-    text-shadow: 1px 1px 1px black;
+    color: black;
+    
     border-bottom: 2px solid #04BFBF;
 }
 #about .card{
@@ -73,10 +68,8 @@
 #about p{
     color: rgb(8, 17, 17);
     
-    font-weight: bold;
 }
 
-/* about */
 
 
 

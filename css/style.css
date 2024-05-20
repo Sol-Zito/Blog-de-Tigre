@@ -7,9 +7,6 @@
     font-family: "Briem Hand", cursive;
 }
 
-h1 {
-    font-family: 'Merriweather', serif;
-}
 
 .tit-log {
     font-size: 25px;
@@ -89,14 +86,9 @@ li {
 
 .history p {
     font-family: "Georgia", serif;
-    /* Una tipografía con serifas mejora la legibilidad en textos largos */
     font-size: 18px;
-    /* Un tamaño de fuente adecuado */
     line-height: 1.6;
-    /* Espaciado entre líneas para facilitar la lectura */
-    /* Color de texto que contrasta bien con el fondo */
     text-align: justify;
-    /* Justifica el texto para un bloque uniforme */
 }
 
 .video {
@@ -116,13 +108,9 @@ li {
 
 .youtube-video {
     display: block;
-    /* Asegura que el iframe se trate como un bloque */
     margin: 0 auto;
-    /* Centra el iframe horizontalmente */
     border-radius: 20px;
-    /* Añade bordes redondeados */
     overflow: hidden;
-    /* Esconde cualquier contenido que se desborde del borde redondeado */
 }
 
 .conteiner-consejos {
