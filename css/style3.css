@@ -1,11 +1,10 @@
 
-
 h1 {
     padding: 10px;
 }
 #product-cards h2{
     text-align: center;
-    font-weight: bold;
+    
     margin-top: 50px;
     color: black;
     
@@ -55,7 +54,7 @@ h1 {
 }
 #about h2{
     text-align: center;
-    font-weight: bold;
+    
     margin-top: 50px;
     color: black;
     
@@ -64,6 +63,10 @@ h1 {
 #about .card{
     background-color: rgb(142, 181, 231);
     box-shadow: 0px 0px 5px black;
+}
+
+.card img{
+    height: auto;
 }
 #about p{
     color: rgb(8, 17, 17);
